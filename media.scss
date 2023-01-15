@@ -1,0 +1,714 @@
+@media (max-width: 1400px) {
+  .container{
+    width: 90%;
+  }
+  #work{
+    .work{
+      padding: 20px;
+      &--ion{
+        padding: 30px;
+      }
+    }
+  }
+  #play{
+    .play{
+      padding: 50px;
+      &--set{
+        padding: 20px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #hero{
+    .hero{
+      &--her{
+        padding: 20px 0;
+      }
+    }
+  }
+  #car{
+    .car{
+      &--curr{
+        padding: 60px ;
+      }
+      &--bod{
+      }
+      &--com{
+      }
+    }
+  }
+  #play{
+    .play{
+      &--meet{
+        padding: 20px 20px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1060px) {
+
+}
+
+@media (max-width: 1024px) {
+  #header{
+    .header{
+      &--cat{
+      }
+      &--lina{
+      }
+      &__spas{
+        img{
+          margin-top: 30px!important;
+        }
+      }
+      &--law{
+        display: none;
+      }
+      &--help{
+        padding: 20px 0;
+        ion-icon{
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--idea{
+        img{
+          padding: 16px 0;
+        }
+      }
+    }
+  }
+  #san{
+    .san{
+      padding: 20px 20px;
+      &--caf{
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #car{
+    .car{
+      padding: 50px 0;
+      &--curr{
+        padding: 60px 0!important;
+      }
+      &--bod{
+      }
+      &--com{
+      }
+    }
+  }
+  #san{
+    .san{
+      &--crlf{
+        img{
+          padding: 20px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 920px) {
+  #play{
+    .play{
+      &--meet{
+        padding: 20px  0;
+      }
+      &--set{
+        margin-left: -40px;
+        padding: 20px 0;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 830px) {
+  #car{
+    .car{
+      &--curr{
+        padding: 60px !important;
+        margin-left: 100px;
+      }
+
+    }
+  }
+  #work{
+    .work{
+      &--img{
+        padding: 30px 0;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 780px) {
+  #sole{
+    .sole{
+      &--car{
+        h3{
+          font-size: 35px!important;
+        }
+      }
+      &--cat{
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #hero{
+    .hero{
+      &--her{
+        img{
+          margin-left: 30%;
+        }
+        h3{
+          font-size: 38px!important;
+
+        }
+        p{
+          font-size: 18px!important;
+
+        }
+      }
+    }
+  }
+  #san{
+    .san{
+      padding: 50px;
+      &--caf{
+        margin-left: 25%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 720px) {
+  #header {
+    .header {
+      padding: 20px 0;
+      img{
+        width: 90%;
+      }
+      &--car {
+        padding: 40px 0;
+      }
+      &__spas{
+        img{
+          margin-left: 100px;
+        }
+        h1{
+          font-size: 50px!important;
+        }
+      }
+      &--alt{
+        img{
+          width: 90% !important;
+          margin-left: 90px;
+
+        }
+      }
+    }
+  }
+  #san{
+    .san{
+      &--spac{
+        h3{
+          font-size: 35px!important;
+        }
+        h4{
+          font-size: 35px!important;
+        }
+
+        p{
+          font-size: 17px!important;
+        }
+      }
+    }
+  }
+  #play{
+    .play{
+      &--ran{
+        h3{
+          font-size: 35px!important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 640px) {
+  #sole{
+    .sole{
+      &--car{
+        h3{
+          font-size: 25px!important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 605px) {
+  #header {
+    .header {
+      &__spas{
+        h1{
+          font-size: 40px!important;
+        }
+        p{
+          font-size: 19px!important;
+
+        }
+      }
+      &--alt{
+        img{
+          width: 90% !important;
+          margin-left: 30px;
+        }
+      }
+      &__spas{
+        button{
+          margin-left: 100px!important;
+        }
+      }
+    }
+  }
+  #car{
+    .car{
+      &--curr{
+        margin-left:-7px;
+        margin-top: -80px;
+      }
+      &--hero{}
+      img{
+        margin-left: 35%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 590px) {
+
+}
+
+@media (max-width: 576px) {
+  #san{
+    .san{
+      &--caf{
+        margin-left: 15%;
+      }
+      &--tado{
+        h3{
+          font-size: 40px!important;
+
+        }
+      }
+    }
+  }
+  #play{
+    .play{
+      &--ran{
+        h3{
+          font-size: 25px!important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 524px) {
+  #header {
+    .header {
+      &--car {
+        margin-left: 50px;
+      }
+      &__spas{
+        p{
+          font-size: 17px!important;
+
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--her {
+        h3{
+          font-size: 30px!important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 500px) {
+  #hero{
+    .hero{
+      img{
+        width: 90%;
+      }
+      &--her {
+        img {
+          width: 40%;
+        }
+      }
+      &--lenovo{
+        img{
+          width: 50%;
+        }
+      }
+    }
+  }
+  #san{
+    .san{
+      &--caf{
+        margin-left: 6%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 452px) {
+  #header {
+    .header {
+      &--car {
+      }
+      &__spas{
+        h1{
+          font-size: 30px!important;
+
+        }
+        p{
+          font-size: 17px!important;
+        }
+      }
+    }
+  }
+  #car{
+    .car{
+      &--com{
+        h3{
+          font-size: 25px!important;
+        }
+        p{
+          font-size: 17px!important;
+        }
+      }
+      &--hero{
+        h2{
+          font-size: 35px!important;
+        }
+
+      }
+    }
+  }
+  #san{
+    .san{
+      &--spac{
+        h3{
+          font-size: 25px!important;
+        }
+        h4{
+          font-size: 25px!important;
+        }
+        img{}
+        margin-left: -30px;
+
+        p{
+          font-size: 15px!important;
+        }
+      }
+      &--ter{
+        h3{
+          font-size: 23px!important;
+        }
+        p{
+          font-size: 17px!important;
+        }
+      }
+      &--tado{
+        h3{
+          font-size: 30px!important;
+
+        }
+      }
+      &--crlf{
+        img{
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+  #work{
+    .work{
+      &--hero{
+        h1{
+          font-size: 33px!important;
+        }
+        p{
+          font-size: 17px!important;
+        }
+      }
+      &--ion{
+        h1{
+          margin-left: 80px;
+          font-size: 33px!important;
+        }
+        img{
+          margin-left: 150px;
+        }
+        p{
+          font-size: 17px!important;
+          margin-left: 80px;
+        }
+      }
+    }
+  }
+  #sole{
+    img{
+    }
+    .sole{
+      img{
+      }
+      &--at{
+        img{
+        }
+      }
+      &--cat{
+        margin-left: -45px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 400px) {
+  #hero{
+    .hero{
+      &--her {
+        h3{
+          font-size: 25px!important;
+        }
+      }
+    }
+  }
+  #san{
+    .san{
+      padding: 20px;
+      &--caf{
+      }
+    }
+  }
+  #play{
+    .play{
+      &--ran{
+        h3{
+          font-size: 20px!important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 376px) {
+  #header {
+    .header {
+      &--car {
+      }
+      &__spas{
+        h1{
+          font-size: 29px!important;
+
+        }
+        p{
+          font-size: 16px!important;
+        }
+      }
+    }
+  }
+  #car{
+    .car{
+      &--com{
+        h3{
+          font-size: 20px!important;
+        }
+        p{
+          margin-top: -10px;
+          font-size: 15px!important;
+        }
+      }
+      &--hero{
+      }
+      &--dist{
+        padding: 10px ;
+        button{
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  #san{
+    .san{
+      &--caf{
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 360px) {
+  #header {
+    .header {
+      &--car {
+      }
+      &__spas{
+        h1{
+          font-size: 25px!important;
+
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--her {
+        h3{
+          font-size: 23px!important;
+        }
+      }
+    }
+  }
+  #car{
+    .car{
+      &--com{
+        h3{
+          font-size: 20px!important;
+        }
+        p{
+          font-size: 14px!important;
+        }
+      }
+      &--hero{
+        h2{
+        }
+
+      }
+    }
+  }
+  #play{
+    .play{
+      &--ran{
+        h3{
+          font-size: 17px!important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+  #header {
+    .header {
+      &--car {
+      }
+      &__spas{
+        h1{
+          font-size: 23px!important;
+
+        }
+        p{
+          font-size: 16px!important;
+        }
+      }
+    }
+  }
+  #car{
+    .car{
+      &--com{
+        h3{
+          font-size: 20px!important;
+        }
+        p{
+          margin-top: -20px;
+          font-size: 12px!important;
+        }
+      }
+      &--hero{
+        h2{
+          font-size: 30px!important;
+
+        }
+
+      }
+    }
+  }
+  #san{
+    .san{
+      padding: 20px;
+      &--caf{
+      }
+    }
+  }
+  #work{
+    .work{
+      &--hero{
+        h1{
+          font-size: 25px!important;
+        }
+        h2{
+          font-size: 17px!important;
+        }
+        p{
+          font-size: 16px!important;
+        }
+      }
+      &--ion{
+        h1{
+          margin-left: 80px;
+          font-size: 25px!important;
+        }
+        img{
+          margin-left: 150px;
+        }
+        p{
+          font-size: 15px!important;
+          margin-left: 80px;
+        }
+      }
+    }
+  }
+  #play{
+    .play{
+      &--ran{
+        h3{
+          font-size: 15px!important;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Serif+Pro:wght@200;300;400;600;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+@import "global";
+@import "mixin";
+@import "media";
+@import "wercal";
+
+#header{
+  padding-top: 2%;
+  .header{
+    @include center();
+    &--car{
+      button{
+        @include btnTwo();
+      }
+    }
+    &--cat{
+      margin-top: 50px;
+      height: 1px;
+      background: $bl;
+    }
+    &--lina{
+      padding-top: 20px;
+      @include center();
+    }
+    &--law{
+      padding: 20px 0;
+    a{
+      margin: 15px ;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 35px;
+      color: #ffffff;
+    }
+      a:hover{
+        color: #f10a0a;
+      }
+    }
+    &--help{
+      @include spece();
+      ion-icon{
+        width: 50px;
+        height: 40px;
+        border: 2px solid #D1B06B;
+        border-radius: 100px;
+      }
+      h2{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-left: 20px;
+
+        span{
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 29px;
+          color: $reb;
+          margin-left: 20px;
+
+        }
+      }
+    }
+    &--tools{
+      @include center();
+    }
+    &__spas{
+      h1{
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 78px;
+        color: $bl;
+      }
+      p{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        color: $reb;
+        padding: 21px 0;
+      }
+      button{
+        @include btn();
+      }
+    }
+    &--alt{
+      img{
+        width: 500px;
+        height: 500px;
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+#hero{
+  padding-top: 14%;
+  .hero{
+    @include center();
+    padding: 40px 0;
+    &--her{
+      h3{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color:$bl;
+      }
+      img{
+        padding: 15px 0;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color:$bl;
+
+      }
+    }
+    &--idea{
+      @include center();
+      padding-top: 30px;
+    }
+    &--lenovo{
+      @include center();
+      img{
+        margin-left: 30px;
+      }
+      h4{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        color: $bl;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+#car{
+  margin-top: 10%;
+  padding: 120px 0;
+  .car {
+    @include center();
+
+    &--hero {
+      h2 {
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: $bl;
+        padding: 20px 0;
+      }
+    }
+
+    &--her {
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: $car;
+      }
+    }
+
+    &--curr {
+      @include center();
+    }
+      &--bod {
+        margin-top: 80px;
+        width: 350px;
+        height: 350px;
+        background: $blu;
+        border-radius: 10px;
+    }
+    &--com {
+      h3 {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 56px;
+        letter-spacing: 0.4px;
+        color: $bl;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: $car;
+        text-align: center;
+      }
+    }
+
+    &--zam {
+      padding: 1px 10px;
+      background: $add;
+      margin-top: 25px;
+    }
+
+    &--dist {
+      @include car();
+      margin-top: 30px;
+
+      button {
+        @include ie();
+      }
+    }
+    }
+}
+
+#san{
+  background: rgba(255, 255, 255, 0.87);
+  padding: 90px 0;
+  .san{
+    &--spac{
+      h3{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color:$zamir;
+      }
+      img{
+        margin-left: 47%;
+        padding: 15px 0;
+      }
+      h4{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color:$zamir;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color:$toyota;
+      }
+    }
+    &--div{
+      @include center();
+    }
+    &--caf{
+      @include car();
+      margin-top: 10%;
+      width: 300px;
+      height: 150px;
+      background: #FBFBFB;
+      border-radius: 2px;
+    }
+    &--we{
+      width: 70px;
+      height: 70px;
+      border: 2px solid #D1B06B;
+      img{
+        margin-left: 23px;
+        margin-top: 10px;
+      }
+      h4{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: $blu;
+      }
+    }
+    &--ter{
+      h3{
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 42px;
+        letter-spacing: 0.4px;
+        color: $blu;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: $toyota;
+      }
+    }
+    &--zam {
+      padding: 1px 10px;
+      background: $bl;
+      margin-top: 65px;
+    }
+    &--tado{
+      @include spece();
+      margin-top: 50px;
+      justify-content: center;
+      h3{
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: $zamir;
+      }
+      img{
+        margin: 30px;
+      }
+    }
+    &--crlf{
+      margin-top: 60px;
+      @include center();
+    }
+  }
+}
+
+#work{
+  background: url("/img/123.png")no-repeat center/cover;;
+  padding-top: 7%;
+  .work{
+    margin-top: -40px;
+    @include work();
+    //height: 1050px;
+    background: rgba(31, 39, 50, 0.85);
+    &--hero{
+      h1{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: $bl;
+      }
+      h2{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color:$reb;
+        padding: 10px 0;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color:$car;
+      }
+    }
+    &--ion{
+      h1{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: $bl;
+      }
+      img {
+        padding: 15px 0;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: $car;
+      }
+      .work--wor{
+        position: absolute;
+        //padding: 2px 185px;
+        Width:370px;
+        height: 5px;
+        border-radius: 100px;
+        background: $reb;
+      }
+      .work--wot{
+        //padding: 2px 200px;
+        Width:430px;
+        height: 5px;
+        background: $bl;
+        border-radius: 100px;
+      }
+    }
+    &--car{
+      @include center();
+      padding: 20px 0;
+      h3{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color:$bl;
+      }
+      a{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color:$bl;
+      }
+    }
+    .work--wort{
+      position: absolute;
+      Width:385px;
+      height: 5px;
+      border-radius: 100px;
+      background: $reb;
+    }
+    .work--two{
+      Width:430px;
+      height: 5px;
+      background: $bl;
+      border-radius: 100px;
+    }
+    .work--sos{
+      position: absolute;
+      Width:400px;
+      height: 5px;
+      border-radius: 100px;
+      background: $reb;
+    }
+    .work--type{
+      Width:430px;
+      height: 5px;
+      background: $bl;
+      border-radius: 100px;
+    }
+    button{
+      @include btnTw();
+      margin-top: 40px;
+    }
+  }
+}
+
+#play{
+  margin-top: 8%;
+  padding: 100px 0;
+  .play{
+    &--ran{
+      h3{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: $bl;
+      }
+      img{
+        padding: 20px 0;
+        margin-left: 45%;
+      }
+    }
+    &--div{
+      @include center();
+    }
+    &--meet{
+      width: 300px;
+      height: 351px;
+      background: #2E3947;
+      border-radius: 1px 1px 1px 40px;
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+        padding: 10px 50px;
+      }
+      img{
+        margin-left: 50px;
+        margin-top: 30px;
+      }
+    }
+    &--met{
+      padding: 20px 0;
+      @include spece();
+      h3{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 39px;
+        letter-spacing: 0.4px;
+        color: $bl;
+        margin-left: 15px;
+      }
+    }
+
+  }
+}
+
+#sole{
+  background: rgba(255, 255, 255, 0.87);
+  margin-top: 6%;
+  padding: 80px 0;
+  .sole{
+    &--car{
+      h3{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: $add;
+      }
+      img{
+        padding: 14px 0;
+        margin-left: 46%;
+      }
+    }
+    &--cat{
+      @include center();
+    }
+    &--at{
+      padding-top: 70px;
+     img{
+      width: 400px;
+      height: 400px;
+     }
+      h3{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color:$zamir;
+      }
+      span{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color:$reb;
+      }
+    }
+  }
+}
+
+#serve{
+  margin-top:6%;
+  padding: 70px 0;
+  .serve{
+    @include center();
+    &--ser{
+      h2{
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: $bl;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: $car;
+      }
+      button{
+        @include btnTw();
+        margin-top: 30px;
+      }
+      img{
+        padding: 20px 0;
+      }
+    }
+    &--sat{
+      width: 550px;
+      height: 450px;
+      background: #FFFFFF;
+    }
+    &--set{
+      padding: 20px 35px;
+      width: 450px;
+      height: 380px;
+      border: 15px solid #D7D7D7;
+      h3{
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 55px;
+        letter-spacing: 0.4px;
+        color:$blu;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color:$toyota;
+      }
+    }
+    &--ion{
+      @include spece();
+      margin-top: 30px;
+      ion-icon{
+        width: 50px;
+        height: 40px;
+        background:$reb;
+        color: $bl;
+        border: 2px solid #D1B06B;
+      }
+      h4{
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: $blu;
+      }
+      span{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 42px;
+        color: $blu;
+      }
+    }
+  }
+}
+
+#name{
+  background: rgba(255, 255, 255, 0.87);
+  margin-top: 6%;
+  padding: 80px 0;
+  .name{
+    margin-left: 200px;
+    width: 800px;
+    height: 500px;
+    background: #1F2732;
+      &--set{
+      input{
+        margin: 40px;
+        position: relative;
+        width: 35%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #FFF;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #FFF;
+        outline: none;
+        background: transparent;
+      }
+    }
+    &--sat{
+      padding: 20px 0;
+      input{
+        margin: 40px;
+        position: relative;
+        width: 35%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #FFF;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #FFF;
+        outline: none;
+        background: transparent;
+      }
+    }
+    &--sar{
+      input{
+        margin: 40px;
+        position: relative;
+        width: 80%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #FFF;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #FFF;
+        outline: none;
+        background: transparent;
+      }
+    }
+    button{
+      @include btnTw();
+      margin-left: 12em;
+    }
+  }
+}
+
+#tel{
+  margin-top: 7%;
+  padding: 80px 0;
+  .tel{
+    @include center();
+    &--len{
+      img{
+        width: 700px;
+        height: 500px;
+      }
+    }
+    &--live{
+      @include spece();
+      h3 {
+        margin:15px 0;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 34px;
+        color: $reb;
+      }
+    }
+    &--play{
+      margin: 10px;
+      width: 13px;
+      border: 1px solid $reb;
+      transform: rotate(90deg);
+    }
+    &--ran{
+      h2{
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        color:$bl;
+        padding: 20px 0;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color:$car;
+      }
+      a{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color:$reb;
+      }
+    }
+  }
+}
+
+.header--cat{
+  height: 1px;
+  background: $bl;
+}
+
+#hom{
+  margin-top: 3%;
+  padding: 20px 0;
+  .hom{
+    @include center();
+    &--nex{
+      height: 1px;
+      background: #4E555F;
+    }
+    &--car{
+      padding: 40px 0;
+     img{
+       width: 330px;
+       height: 330px;
+     }
+    }
+    &--live{
+      @include spece();
+      h3 {
+        margin:15px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 34px;
+        color: $reb;
+      }
+    }
+    &--play{
+      margin: 10px;
+      width: 13px;
+      border: 1px solid $reb;
+      transform: rotate(90deg);
+    }
+    &--ran{
+      h2{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        color:$bl;
+        padding: 15px 0;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color:$car;
+      }
+      a{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color:$reb;
+      }
+    }
+  }
+}
+
+#footer{
+  padding: 70px 0;
+  .footer{
+    &--foot{
+      @include spece();
+      img{
+        width: 400px;
+        height: 200px;
+      }
+    }
+    &--idea{
+      @include center();
+    }
+    &--win{
+      h3{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+        color: $bl;
+      }
+    }
+    &--sof{
+      height: 1px;
+      width: 230px;
+      background: #3B434E;
+    }
+    &--fn{
+      margin-top: 20px;
+      @include spece();
+    }
+    &--led{
+      a{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #D7D7D7;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #D7D7D7;
+      }
+    }
+    &--toto{
+      margin-left: 40px;
+      a{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #D7D7D7;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #D7D7D7;
+      }
+    }
+  }
+}
+
+#home{
+  padding: 40px 0;
+  .home{
+    @include spece();
+    &--lock{
+    h3{
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: 0.4px;
+     color: $car;
+   }
+    span{
+     font-weight: 400;
+     font-size: 22px;
+     line-height: 35px;
+     letter-spacing: 0.4px;
+     color:$reb;
+   }
+    }
+    &--sas{
+      margin-left: 20%;
+      span{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+        color:$reb;
+      }
+      ion-icon{
+        width: 30px;
+        height: 20px;
+        margin-left: 20px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
